@@ -19,7 +19,7 @@ In the game we assume the following conditions:
 - We will not draw a hanging pole, unlike the original game. 😬
 #
 
-## Part A
+## Part A - game
 In the part the computer chooses randomly a word and the user tries to figure it out.
 After the game ends,                                    
 the player can choose to play the game again and again.              
@@ -40,6 +40,19 @@ At the end of a game, a message will appear and the number of points will be res
 After the game is over the player can choose to play another game. If he won the last game, the amount of positive points continues
 with him to the next round.
 #
+
+## Part B - hints
+In this section we will add to the player the option to ask for a hint that suggests possible words that can match the pattern.
+Requesting a hint costs the player one point.
+The program will know based on the current pattern state and a list of past wrong guesses to suggest relevant words that could match.
+
+For example, if the current pattern is "d _ _ _ _ a _ _ _ _" and our guess list contains the letters ['b','c']
+So a possible filtered list of words is ['delegating', 'derogation', 'dishwasher'].
+#
+
+
+
+
 
 
 
